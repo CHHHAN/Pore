@@ -1,0 +1,34 @@
+{
+  "PORE": {
+    "Debug": "FALSE",
+    "Trunk": "zh-CN",
+    "Airta": "index",
+    "Param": ""
+  },
+  "RUNNING": {
+    "Status": "",
+    "Trunk": "",
+    "Airta": "",
+    "Param": ""
+  },
+  "MAP": {
+    "Class":{
+      "Core\\Route":"core/scr/Route.pore.php",
+      "Core\\Airta":"core/scr/Airta.pore.php",
+      "Core\\Trunk":"core/scr/Trunk.pore.php"
+    },
+    "Lib": {
+      "Core\\STR": "core/STR.core.php",
+      "Event": "core/Event.core.php"
+    },
+    "Route": {
+      "{url}": "{filePath}"
+    },
+    "Airta": {
+      "index": "index.php"
+    },
+    "Trunk": {
+      "Core\\Language": "Language.trunk.php"
+    }
+  }
+}
